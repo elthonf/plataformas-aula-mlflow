@@ -1,0 +1,1 @@
+Pasta vazia para acomodar dados de treino a serem logados
