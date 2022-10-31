@@ -24,7 +24,8 @@ escolha uma porta não usada
 ``` 
 mlflow models serve -m <PATH-DO_MODELO> -p <PORTA> --env-manager <Gestor de ambiente>
 ```
-Exemplo:
+Exemplo2:
 ```commandline
 mlflow models serve -m temp/2/f8072fb81f664daf96ce55b6fe7a7b44/artifacts/modelo_mlf -p 5010  --env-manager local
+mlflow models serve -m mlruns/2/f8072fb81f664daf96ce55b6fe7a7b44/artifacts/modelo_mlf -p 5010  --env-manager local
 ```
